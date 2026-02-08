@@ -1,3 +1,14 @@
+Sanal Makine (VirtualBox) ve Konteyner (Docker) Performans Karşılaştırması
+Bu proje, İşletim Sistemleri dersi kapsamında; geleneksel sanal makineler ile modern konteyner teknolojilerinin performans verimliliğini niceliksel olarak analiz etmek amacıyla geliştirilmiştir. Proje, bizzat yürütülen benchmark testlerini ve literatür taramasını içeren teknik bir rapor ile sunum dosyasından oluşmaktadır.  
+📊 Test Metodolojisi ve Ortamı
+Testler, Ubuntu/CentOS tabanlı fiziksel bir sunucu üzerinde, VirtualBox (VM) ve Docker Engine (Konteyner) ortamları arasında adil bir karşılaştırma yapabilmek için benzer konfigürasyonlarla (4 CPU çekirdeği, 8 GB RAM) gerçekleştirilmiştir.  
+Kullanılan Araçlar:
+* CPU: sysbench, stress  
+* Bellek (RAM): sysbench --test=memory, stress-ng  
+* Disk I/O: dd, fio  
+* Ağ: iperf3, ping  
+* Başlatma Süresi: systemd-analyze, time, Measure-Command
+
 ###  Performans Karşılaştırma Sonuçları
 
 Aşağıdaki tablo, VirtualBox VM ve Docker Konteyner ortamlarında gerçekleştirdiğim benchmark testlerinin özet sonuçlarını göstermektedir:
