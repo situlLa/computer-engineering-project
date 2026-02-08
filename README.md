@@ -20,3 +20,9 @@ Aşağıdaki tablo, VirtualBox VM ve Docker Konteyner ortamlarında gerçekleşt
 | *CPU Performansı* | Yakın (Bir miktar daha ağır) | Yakın (Yaklaşık native hız) |
 | *Bellek (RAM) Performansı* | Yakın (Sabit rezervasyon yükü) | Yakın (Dinamik ve daha hafif) |
 | *Ağ Performansı* | Orta (NAT/Köprüleme gecikmesi) | Orta / Yüksek (Düşük gecikme) |
+
+📂 Depo İçeriği
+* 📄 Rapor: Sanallaştırma teknolojilerinin mimari farklarını ve test sonuçlarını içeren detaylı PDF.  
+* 📽️ Sunum: Projenin görselleştirilmiş özetini içeren PowerPoint dosyası.  
+💡 Sonuç
+Analiz sonucunda, mikroservis mimarileri ve hızlı ölçeklendirme gerektiren senaryolarda Docker'ın; tam izolasyon ve farklı işletim sistemi çekirdeklerine ihtiyaç duyulan kritik güvenlik senaryolarında ise Sanal Makinelerin tercih edilmesi gerektiği sonucuna varılmıştır.
