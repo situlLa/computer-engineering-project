@@ -1,4 +1,4 @@
-### 📊 Performans Karşılaştırma Sonuçları
+###  Performans Karşılaştırma Sonuçları
 
 Aşağıdaki tablo, VirtualBox VM ve Docker Konteyner ortamlarında gerçekleştirdiğim benchmark testlerinin özet sonuçlarını göstermektedir:
 
